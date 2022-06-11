@@ -57,14 +57,12 @@ if x in numbers:
 if x not in numbers:
     print(f'{x} is not in the list')
 
+# Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+#is
 if x is y:
     print(x is y)
-
+#is not
 if x is not y:
     print(x is not y)
 
-
-
-
-
-# Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
